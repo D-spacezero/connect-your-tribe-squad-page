@@ -1,0 +1,43 @@
+<%- include('./partials/head') %>
+
+<body class="notscrolled scrolled">
+  
+  <article>
+  
+  <div class="mobileframe" style="background-color:black !important;">
+    
+    <div style="background-color:white !important;">
+      <img class="logo" src="./media/logo.svg" alt="Logo">
+      <img class="brain" src="./media/brain.jpg" alt="Brain">
+    </div>
+  
+    <div style="background-color:white !important;">
+      <img class="liquid" src="./media/liquid-gradient.jpg" alt="liquid">
+      <h2 class="vertical-text">SWIPE >>>>>></h2>
+      <h1 class="name-box"><%= member.name %> <br> <%= member.surname %> </h1>
+      <!--<h3 class="swipe"> >>>> </h3>-->
+    </div>
+  
+    <div class="quality-box quality-box-transition">
+      <div class="fade fade-trasistion">
+        <h1 class="qualities">Qualities</h1>
+        <ul class="list">
+          <li>Creative</li>
+          <li>Resolving</li>
+          <li>Innovative</li>
+          <li>Prepared</li>
+        </ul>
+      <h2 class="aboutme">About me</h2>
+        <p><%= member.bio.html %></p>
+      </div>
+    </div>
+  
+  </div>
+  
+  </article>
+  
+  <script src="./scripts/script.js"></script>
+  
+  </body>
+
+<%- include('./partials/foot') %>
