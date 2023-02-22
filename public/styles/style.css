@@ -1,9 +1,267 @@
+:root {
+  --fdnd-blue: #050542;
+  --fdnd-green:#66E5BF;
+  --scooter: #34A4D0;
+
+  --niveau-4: url(/public/media/brain.jpg) ;
+
+}
+
+/* general */
+
 body {
+  background-color: var(--fdnd-blue);
+  color: white;
+}
+
+h1 {
+  font-size: 1.7em;
+  color: var(--scooter);
+  margin: 0.4em 0em;
+}
+
+h2 {
+  font-size: 3.6em;
+  margin: 0em 0em;
+}
+
+p {
+  font-size: 1.4em;
+  margin: 0.4em 0em;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  padding-top: 2em;
+}
+
+ol {
+  font-size: 1.7em;
+}
+
+li {
+  list-style: none;
+  display: flex;
+  align-items: center;  
+}
+
+/* Others */
+
+.logos{
+  display: grid;
+  padding-top:4em;
+  grid-template-columns: 140px 2fr 2fr 4fr 70px;
+  grid-template-rows: 1fr;
+  grid-template-areas:
+  ". fdnd hva . ."
+}
+
+.logo {
+  grid-area: logos;
+}
+
+.fdnd {
+  grid-area: fdnd;
+  height: 4em;
+  padding: 1em 0em;
+}
+
+.hva {
+  grid-area: hva;
+  height: 2.8em;
+  padding-left: 2em;
+  padding-top: 1.6em;
+}
+
+.main{
+  display: grid;
+  padding-top:0em;
+  grid-template-columns: 140px 3fr 3fr 2fr 70px;
+  grid-template-rows: 1fr;
+  grid-template-areas:
+  ". about map students ."
+}
+
+.about {
+  grid-area: about;
+  margin-top: 12em;
+}
+
+.map {
+  grid-area: map;
+}
+
+a:hover {
+  opacity: 20%;
+  cursor: pointer;
+}
+
+  /*.kaartnederland {
+    padding-top: 6em;
+    position: absolute;
+    width: 37%;
+    margin-left: -10em;
+    opacity: 20%;
+  }*/
+
+  .Drenthe {
+    margin-top: 12.04em;
+    position: absolute;
+    width: 9.5em;
+    margin-left: 18.25em;
+  }
+
+  .Flevoland {
+    margin-top: 18.25em;
+    position: absolute;
+    width: 8.45em;
+    margin-left: 8.2em;
+  }
+
+  .Friesland {
+    margin-top: 8.8em;
+    position: absolute;
+    width: 10.5em;
+    margin-left: 10.6em;
+  }
+
+  .Gelderland {
+    margin-top: 23.6em;
+    position: absolute;
+    width: 18.6em;
+    margin-left: 7.15em;
+  }
+
+  .Groningen {
+    margin-top: 7.6em;
+    position: absolute;
+    width: 10.3em;
+    margin-left: 18.6em;
+  }
+
+  .Limburg {
+    margin-top: 36.3em;
+    position: absolute;
+    width: 6.7em;
+    margin-left: 13.3em;
+  }
+
+  .Noord-Brabant {
+    margin-top: 35.1em;
+    position: absolute;
+    width: 19.1em;
+    margin-left: -1.1em;
+  }
+
+  .Noord-Holland {
+    margin-top: 16.2em;
+    position: absolute;
+    width: 7.8em;
+    margin-left: 2.1em;
+  }
+
+  .Overijssel {
+    margin-top: 18.2em;
+    position: absolute;
+    width: 13em;
+    margin-left: 14.9em;
+  }
+
+  .Utrecht {
+    margin-top: 27.05em;
+    position: absolute;
+    width: 8.5em;
+    margin-left: 5.05em;
+  }
+
+  .Wadden-Eilanden {
+    margin-top: 6em;
+    position: absolute;
+    width: 19em;
+    margin-left: 3.73em;
+  }
+
+  .Zeeland {
+    margin-top: 34.47em;
+    position: absolute;
+    width: 10.8em;
+    margin-left: -10.05em;
+  }
+
+  .Zuid-Holland {
+    margin-top: 26.8em;
+    position: absolute;
+    width: 11.95em;
+    margin-left: -3.27em;
+  }
+  
+
+.students {
+  grid-area: students;
+}
+
+.student-info {
+  padding: 0em 1.4em;
+  font-size: 1.4em;
+}
+
+.student-info>li>img {
+  height: 2em;
+  border-radius: 0.3em;
+  margin-right: 1em;
+}
+
+.niveau {
+  height: 4em;
+  padding: 1em 0em;
+  padding-right: 2em;
+}
+
+.box {
+  margin-top:4em;
+  border: 2px solid;
+  border-color: var(--fdnd-green);
+  border-radius: 2em;
+  width: 100%;
+  height: 760px;
+}
+
+.provicies-box {
+  border: 2px solid;
+  border-color: var(--fdnd-green);
+  border-radius: 2em 2em 0em 0em;
+  height: 4em;
+  margin-top: -2px;
+  margin-left: -2px;
+  width: 100%;
+  display: flex;
+  align-items: center;  
+
+}
+
+.provicies-box>p{ 
+  padding-left: 1.35em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  
+  body {
     font-family:poppins;
     margin: 0;
     display:flex;justify-content:center;align-items:center;
   }
-  
   .notscrolled {
   
     background: linear-gradient(229deg, #006bff, #935fdb, #3cb9d5, #c500ff);
@@ -49,7 +307,7 @@ body {
     margin:0;
     padding:0;
   }*/
-  
+/* 
   .logo {
     width:150px;
     padding-top: 3em;
@@ -67,21 +325,18 @@ body {
     z-index:1;
     position:relative;
   }
-  
-  
-  .vertical-text {
+
+
+.vertical-text {
     font-size: 5em;
     writing-mode: vertical-rl;
     float: right;
     margin-left: -100px;
     margin-right: 30px;
     margin-top:55px;
-    /*position: absolute;
-    left: 912px;
-    top: 385px;*/
     color:#4B53D9;
   }
-  
+
   .name-box{
     background-color:white;
     box-shadow: 5px 5px 2.5px lightblue;
@@ -93,9 +348,6 @@ body {
     margin-right:-50px;
     margin-top:364px;
     position:relative;
-    /*position: absolute;
-    left: 802px;
-    top: 665px;*/
     font-size: 2em;
     font-weight: 500;
   }
@@ -109,7 +361,7 @@ body {
     font-size: 2em;
     margin-left: 1000px;
     color:black;
-  }*/
+  }*//*
   
   li {
     font-size: 2em;
@@ -168,3 +420,4 @@ body {
   ::-webkit-scrollbar {
     width: 0px;
   }
+*/

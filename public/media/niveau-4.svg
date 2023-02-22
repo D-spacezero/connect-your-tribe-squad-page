@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="63" height="63" viewBox="0 0 63 63">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_289" data-name="Rectangle 289" width="63" height="63" transform="translate(193 801)" fill="none" stroke="#66e5bf" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Group_204" data-name="Group 204" transform="translate(-193 -801)">
+    <g id="Mask_Group_4" data-name="Mask Group 4" clip-path="url(#clip-path)">
+      <g id="Group_207" data-name="Group 207">
+        <g id="Patern" transform="translate(471.938 -286.586) rotate(45)">
+          <line id="Line_12" data-name="Line 12" x2="118.484" transform="translate(543.5 906.5)" fill="none" stroke="#66e5bf" stroke-width="1"/>
+          <line id="Line_13" data-name="Line 13" x2="118.484" transform="translate(543.5 916.5)" fill="none" stroke="#66e5bf" stroke-width="1"/>
+          <line id="Line_14" data-name="Line 14" x2="118.484" transform="translate(543.5 926.5)" fill="none" stroke="#66e5bf" stroke-width="1"/>
+          <line id="Line_15" data-name="Line 15" x2="118.484" transform="translate(543.5 936.5)" fill="none" stroke="#66e5bf" stroke-width="1"/>
+          <line id="Line_16" data-name="Line 16" x2="118.484" transform="translate(543.5 946.5)" fill="none" stroke="#66e5bf" stroke-width="1"/>
+          <line id="Line_17" data-name="Line 17" x2="118.484" transform="translate(543.5 956.5)" fill="none" stroke="#66e5bf" stroke-width="1"/>
+          <line id="Line_18" data-name="Line 18" x2="118.484" transform="translate(543.5 966.5)" fill="none" stroke="#66e5bf" stroke-width="1"/>
+          <line id="Line_19" data-name="Line 19" x2="118.484" transform="translate(543.5 976.5)" fill="none" stroke="#66e5bf" stroke-width="1"/>
+          <line id="Line_20" data-name="Line 20" x2="118.484" transform="translate(543.5 986.5)" fill="none" stroke="#66e5bf" stroke-width="1"/>
+          <line id="Line_21" data-name="Line 21" x2="118.484" transform="translate(543.5 996.5)" fill="none" stroke="#66e5bf" stroke-width="1"/>
+          <line id="Line_22" data-name="Line 22" x2="118.484" transform="translate(543.5 1006.5)" fill="none" stroke="#66e5bf" stroke-width="1"/>
+          <line id="Line_23" data-name="Line 23" x2="118.484" transform="translate(543.5 1016.5)" fill="none" stroke="#66e5bf" stroke-width="1"/>
+        </g>
+        <g id="Patern-2" data-name="Patern" transform="translate(297.039 816.5) rotate(135)">
+          <line id="Line_12-2" data-name="Line 12" x2="118.484" transform="translate(0 110)" fill="none" stroke="#66e5bf" stroke-width="1"/>
+          <line id="Line_13-2" data-name="Line 13" x2="118.484" transform="translate(0 100)" fill="none" stroke="#66e5bf" stroke-width="1"/>
+          <line id="Line_14-2" data-name="Line 14" x2="118.484" transform="translate(0 90)" fill="none" stroke="#66e5bf" stroke-width="1"/>
+          <line id="Line_15-2" data-name="Line 15" x2="118.484" transform="translate(0 80)" fill="none" stroke="#66e5bf" stroke-width="1"/>
+          <line id="Line_16-2" data-name="Line 16" x2="118.484" transform="translate(0 70)" fill="none" stroke="#66e5bf" stroke-width="1"/>
+          <line id="Line_17-2" data-name="Line 17" x2="118.484" transform="translate(0 60)" fill="none" stroke="#66e5bf" stroke-width="1"/>
+          <line id="Line_18-2" data-name="Line 18" x2="118.484" transform="translate(0 50)" fill="none" stroke="#66e5bf" stroke-width="1"/>
+          <line id="Line_19-2" data-name="Line 19" x2="118.484" transform="translate(0 40)" fill="none" stroke="#66e5bf" stroke-width="1"/>
+          <line id="Line_20-2" data-name="Line 20" x2="118.484" transform="translate(0 30)" fill="none" stroke="#66e5bf" stroke-width="1"/>
+          <line id="Line_21-2" data-name="Line 21" x2="118.484" transform="translate(0 20)" fill="none" stroke="#66e5bf" stroke-width="1"/>
+          <line id="Line_22-2" data-name="Line 22" x2="118.484" transform="translate(0 10)" fill="none" stroke="#66e5bf" stroke-width="1"/>
+          <line id="Line_23-2" data-name="Line 23" x2="118.484" transform="translate(0 0)" fill="none" stroke="#66e5bf" stroke-width="1"/>
+        </g>
+      </g>
+    </g>
+    <g id="Rectangle_291" data-name="Rectangle 291" transform="translate(193 801)" fill="none" stroke="#66e5bf" stroke-width="1">
+      <rect width="63" height="63" stroke="none"/>
+      <rect x="0.5" y="0.5" width="62" height="62" fill="none"/>
+    </g>
+  </g>
+</svg>

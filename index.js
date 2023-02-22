@@ -21,7 +21,7 @@ app.get('/', function (req, res) {
 })
 
 // Stel het poortnummer in waar express op gaat luisteren
-app.set('port', process.env.PORT || 8000)
+app.set('port', process.env.PORT || 1234)
 
 // Start express op, haal het ingestelde poortnummer op
 app.listen(app.get('port'), function () {

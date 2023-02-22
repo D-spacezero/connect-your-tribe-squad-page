@@ -1,43 +1,89 @@
 <%- include('./partials/head') %>
 
-<body class="notscrolled scrolled">
-  
-  <article>
-  
-  <div class="mobileframe" style="background-color:black !important;">
-    
-    <div style="background-color:white !important;">
-      <img class="logo" src="./media/logo.svg" alt="Logo">
-      <img class="brain" src="./media/brain.jpg" alt="Brain">
+<body class="main">
+
+  <section class="about">
+
+    <h1>Squad Page</h1>
+    <h2>Wie komt van waar</h2>
+    <p>Bekijk wie waar vandaan komt met 1 simpele klik.</p>
+
+    <ul>
+      <li><img class="niveau" src="./media/niveau-4.svg" alt="niveau-4">10+ Studenten</li>
+      <li><img class="niveau" src="./media/niveau-3.svg" alt="niveau-3">5-9 Studenten</li>
+      <li><img class="niveau" src="./media/niveau-2.svg" alt="niveau-2">1-4 Studenten</li>
+      <li><img class="niveau" src="./media/niveau-1.svg" alt="niveau-1">0 Studenten</li>
+    </ul>
+
+  </section>
+
+  <section class="map">
+    <!--<img class="kaartnederland" src="./media/nederland.svg" alt="nederlandkaart">-->
+    <a>
+      <img class="Drenthe" src="./media/map/Drenthe.svg" alt="nederlandkaart">
+    </a>
+    <a>
+      <img class="Flevoland" src="./media/map/Flevoland.svg" alt="nederlandkaart">
+    </a>
+    <a>
+      <img class="Friesland" src="./media/map/Friesland.svg" alt="nederlandkaart">
+    </a>
+    <a>
+      <img class="Gelderland" src="./media/map/Gelderland.svg" alt="nederlandkaart">
+    </a>
+    <a>
+      <img class="Groningen" src="./media/map/Groningen.svg" alt="nederlandkaart">
+    </a>
+    <a>
+      <img class="Limburg" src="./media/map/Limburg.svg" alt="nederlandkaart">
+    </a>
+    <a>
+      <img class="Noord-Brabant" src="./media/map/Noord-Brabant.svg" alt="nederlandkaart"></a>
+    <a>
+      <img class="Noord-Holland" src="./media/map/Noord-Holland.svg" alt="nederlandkaart">
+    </a>
+    <a>
+      <img class="Overijssel" src="./media/map/Overijssel.svg" alt="nederlandkaart">
+    </a>
+    <a>
+      <img class="Utrecht" src="./media/map/Utrecht.svg" alt="nederlandkaart">
+    </a>
+    <a>
+      <svg class="Wadden-Eilanden" xmlns="http://www.w3.org/2000/svg">
+        <g fill="none" stroke="#66E5BF">
+            <path d="m499.226 62.9c-.131 1.876.1 5.234-.456 5.37-2.434.6-5.1.256-7.677.256q-.129-.765-.258-1.531l3.867-4.1z" transform="translate(-186.445 -62.399)" />
+            <path d="m343.7 90.418c.623 6.224-3.614 7.757-6.631 9.61-2.651 1.629-4.957 2.9-5.946 6.153-.277.91-2.948 1.855-4.24 1.56-4.759-1.09-8.559-1.219-12.62 2.823-2.4 2.393-7.275 2.222-10.955 3.447-4.814 1.6-9.616 3.278-14.27 5.28-1.327.57-2.27 2.283-3.122 3.64-1.3 2.073-2.775 3.962-5.376 2.514-2.52-1.4-4.251-3.8-2.8-6.759a17.421 17.421 0 0 1 4.429-5.5c9.391-7.809 20.5-11.468 32.4-13.561 6.127-1.078 12.048-3.385 18.021-5.263 3.518-1.104 6.963-2.462 11.11-3.944z" transform="translate(-204.731 -60.043)" />
+            <path d="m413.452 88.756c-3.141.859-6.24 1.944-9.432 2.527-6.007 1.1-12.062 1.933-18.106 2.817-2.214.325-4.7 1.219-6.633.567-6.194-2.1-10.874.326-15.28 4.118-3.528 3.034-7.619 4.505-11.478 1.632a12.811 12.811 0 0 1 -4.445-7.653c-.28-1.756 2.052-4.165 3.669-5.843.5-.513 3.206-.012 3.7.777 2.539 4.046 6.21 3.871 9.972 2.992a47 47 0 0 0 7.124-2.719c1.106-.46 2.118-1.523 3.211-1.58 10.7-.558 21.211-4.871 32.091-1.793a52.027 52.027 0 0 1 5.524 2.243z" transform="translate(-198.666 -60.636)" />
+            <path d="m247.265 179.912c-.759 8.907-5.062 15.758-10.1 22.2a135.486 135.486 0 0 1 -9.312 10.4 10.9 10.9 0 0 1 -12.848 1.869c-4.113-2.276-4.78-6.1-3.412-10.122 1.87-5.5 3.652-11.149 6.443-16.2 4.931-8.921 10.48-17.513 16.052-26.06 1.055-1.618 3.413-2.387 5.17-3.548.89 1.829 1.811 3.643 2.659 5.491a34.109 34.109 0 0 1 1.485 3.7c1.32 4.081 2.58 8.179 3.863 12.27z" transform="translate(-210.402 -54.22)" />
+            <path d="m241.769 158.2c-.861-.446-2.92-.91-3.8-2.186-.562-.815.348-2.98 1.067-4.283 3.249-5.9 8.26-9.674 14.443-12.333 2.793-1.2 5.033-3.69 7.524-5.593 2.382-1.818 4.6-3.956 7.221-5.312 1.228-.635 3.238.238 4.894.428-.2 1.344-.079 2.852-.662 4-2.177 4.3-6.164 6.06-10.662 6.6-2.461.3-3.166 1.283-3.344 3.7-.399 5.46-10.702 14.995-16.681 14.979z" transform="translate(-208.104 -56.804)" />
+            <path d="m463.256 78.429c-4.8 2.33-8.81 4.392-12.921 6.23a44.158 44.158 0 0 1 -8.8 3.252c-3.966.824-7.736 1.08-10.642 4.814-2.3 2.957-6.054 1.495-6.92-2.157-1.572-6.643 1.508-11.192 8.243-11.462 8.579-.342 16.977-.588 24.818-5.113 3.925-2.268 5.979-.126 6.222 4.436z" transform="translate(-192.203 -61.527)" />
+            <path d="m486.082 65.873c.175 5.137-2.856 5.43-5.67 5.862-3.242.5-5.445-.783-6.945-5.118z" transform="translate(-187.932 -62.144)" />
+        </g>
+    </svg>
+  </a>
+    <a>
+      <img class="Zeeland" src="./media/map/Zeeland.svg" alt="nederlandkaart">
+    </a>
+    <a>
+      <img class="Zuid-Holland" src="./media/map/Zuid-Holland.svg" alt="nederlandkaart">
+    </a>
+
+  </section>
+
+  <section class="students">
+    <div class="box">
+      <div class="provicies-box"><p>Noord-Holland</p></div>
+      <ol class="student-info">
+        <li><img src="https://avatars.githubusercontent.com/u/112856412?v=4"><%= member.name %> <%= member.surname %></li>
+      </ol>
     </div>
+
+  </section>
+
   
-    <div style="background-color:white !important;">
-      <img class="liquid" src="./media/liquid-gradient.jpg" alt="liquid">
-      <h2 class="vertical-text">SWIPE >>>>>></h2>
-      <h1 class="name-box"><%= member.name %> <br> <%= member.surname %> </h1>
-      <!--<h3 class="swipe"> >>>> </h3>-->
-    </div>
-  
-    <div class="quality-box quality-box-transition">
-      <div class="fade fade-trasistion">
-        <h1 class="qualities">Qualities</h1>
-        <ul class="list">
-          <li>Creative</li>
-          <li>Resolving</li>
-          <li>Innovative</li>
-          <li>Prepared</li>
-        </ul>
-      <h2 class="aboutme">About me</h2>
-        <p><%= member.bio.html %></p>
-      </div>
-    </div>
-  
-  </div>
-  
-  </article>
-  
+
   <script src="./scripts/script.js"></script>
-  
-  </body>
+
+</body>
 
 <%- include('./partials/foot') %>
