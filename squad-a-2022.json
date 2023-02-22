@@ -1,0 +1,452 @@
+{
+    "squad": {
+        "id": "cldczeqqt178k0avw3jmbc8wy",
+        "name": "Squad A",
+        "slug": "squad-a-2022",
+        "cohort": "2022",
+        "website": null,
+        "members": [
+            {
+                "id": "clden1bsh3owj0avwg287hvt3",
+                "slug": "killer-jo",
+                "name": "Joelle",
+                "prefix": "-",
+                "surname": "Verspeek",
+                "role": [
+                    "student"
+                ],
+                "nickname": "jo",
+                "avatar": "",
+                "gitHubHandle": "joelle78",
+                "bio": {
+                    "html": "Student FDND!"
+                },
+                "website": "https://fine-blue-angler-cap.cyclic.app/",
+                "colour": {
+                    "hex": "#000000"
+                }
+            },
+            {
+                "id": "clden27vv3oj40auoz98lhvli",
+                "slug": "marco",
+                "name": "Marco",
+                "prefix": "The",
+                "surname": "Kosters",
+                "role": [
+                    "student"
+                ],
+                "nickname": "Goat",
+                "avatar": "https://avatars.githubusercontent.com/u/61830362?v=4",
+                "gitHubHandle": "kosterm14",
+                "bio": {
+                    "html": ":)"
+                },
+                "website": "https://exuberant-teal-drill.cyclic.app/",
+                "ervaring": "1 jaar",
+                "colour": {
+                    "hex": "#2b0a8c"
+                }
+            },
+            {
+                "id": "cldemynyf3odx0auoqh40q6dd",
+                "slug": "danique-de-jong",
+                "name": "Danique",
+                "prefix": "de",
+                "surname": "Jong",
+                "role": [
+                    "student"
+                ],
+                "nickname": "Danique",
+                "avatar": "https://cdn.shopify.com/s/files/1/0527/2734/9438/articles/blog_choosing_a_puppy_main_1024x1024_e2c434cf-bd80-42e2-b539-15867f2abfbd_1024x.jpg?v=1632895201",
+                "gitHubHandle": "Daniquedejong",
+                "bio": {
+                    "html": "<p>AD Frontend Design &amp; Development </p><p>Woon in Hoofddorp</p>Youngones freelancer<p></p>Hockeyclub de Kikkers<p></p>Feestjes met vrienden   "
+                },
+                "website": "",
+                "ervaring": "0 jaar",
+                "colour": {
+                    "hex": "#ff00a2"
+                }
+            },
+            {
+                "id": "cldemz0qp3osx0avwew5fupa4",
+                "slug": "diego-dekker",
+                "name": "Diego",
+                "prefix": "",
+                "surname": "Dekker",
+                "role": [
+                    "student"
+                ],
+                "nickname": "Diego",
+                "avatar": "https://avatars.githubusercontent.com/u/112856412?v=4",
+                "gitHubHandle": "D-spacezero",
+                "bio": {
+                    "html": "Lorem ipsum dolor sit amet, consectetur adipis elit, sed do eiusmod tem incididunt ut labore et dolore magna aliqua. Ut enim ad minim viam, quis nostrud exerci incididunt ut"
+                },
+                "website": "",
+                "ervaring": "4 jaar",
+                "colour": {
+                    "hex": "#000000"
+                }
+            },
+            {
+                "id": "cldenb7k53q7m0avwsq9seuns",
+                "slug": "wesley-schorel",
+                "name": "Wesley",
+                "prefix": "",
+                "surname": "Schorel",
+                "role": [
+                    "student"
+                ],
+                "nickname": "Oom_Dagobert",
+                "avatar": "https://avatars.githubusercontent.com/u/112857487?s=400&u=65af7a5ecbb92e091fff8f03f11e5ea6828e9ec0&v=4",
+                "gitHubHandle": "WesleySchorel",
+                "bio": {
+                    "html": "Im a Frontend Design and Development student at the Amsterdam University of Applied Sciences."
+                },
+                "website": "tired-pink-coati.cyclic.app",
+                "ervaring": "2 jaar",
+                "colour": {
+                    "hex": "#0099e6"
+                }
+            },
+            {
+                "id": "cldczhjad16yh0av08jxscp0a",
+                "slug": "justus-sturkenboom",
+                "name": "Justus",
+                "prefix": "",
+                "surname": "Sturkenboom",
+                "role": [
+                    "squadleader",
+                    "lecturer"
+                ],
+                "nickname": "ju5tu5",
+                "avatar": "https://avatars.githubusercontent.com/u/140124?v=4",
+                "gitHubHandle": "ju5tu5",
+                "bio": {
+                    "html": "Philosophy/ Computer Science Lecturer at the <a title=\"https://www.amsterdamuas.com\" href=\"https://www.amsterdamuas.com\">#AUAS</a> in the <a title=\"https://fdnd.nl/\" href=\"https://fdnd.nl/\">#FDND</a> associate degree and the <a title=\"https://www.cmd-amsterdam.nl/english/\" href=\"https://www.cmd-amsterdam.nl/english/\">#CMDA</a> bachelor programme... and i do <a title=\"https://twitter.com/ju5tu5\" href=\"https://twitter.com/ju5tu5\">some sketchnoting</a> for fun ^^"
+                },
+                "website": "https://justus.fdnd.nl",
+                "ervaring": "5+ jaar",
+                "colour": {
+                    "hex": "#f70202"
+                }
+            },
+            {
+                "id": "clden2tx83oco0av08m5qccst",
+                "slug": "rolie",
+                "name": "Milan",
+                "prefix": "",
+                "surname": "Rolie",
+                "role": [
+                    "student"
+                ],
+                "nickname": "Moss",
+                "avatar": "https://avatars.githubusercontent.com/u/112857190?s=400&u=01536d97cfa15f1d7db1d5729f822ef9454384d9&v=4",
+                "gitHubHandle": "milanrolie",
+                "bio": {
+                    "html": "Komt nog"
+                },
+                "website": "milanrolie.com",
+                "ervaring": "4 jaar",
+                "colour": null
+            },
+            {
+                "id": "clden1s7h3oi20auoii9qlp9u",
+                "slug": "judithjso",
+                "name": "Judith",
+                "prefix": "null",
+                "surname": "Oostrom",
+                "role": [
+                    "student"
+                ],
+                "nickname": "Judith",
+                "avatar": "null",
+                "gitHubHandle": "JudithJSO",
+                "bio": {
+                    "html": "null"
+                },
+                "website": "null",
+                "colour": null
+            },
+            {
+                "id": "cldenamh13pej0av0umbtpoyb",
+                "slug": "trisjan-mustamu",
+                "name": "Trisjan",
+                "prefix": "Mr",
+                "surname": "Mustamu",
+                "role": [
+                    "student"
+                ],
+                "nickname": "Tris",
+                "avatar": "https://avatars.githubusercontent.com/u/74552944?v=4",
+                "gitHubHandle": "Trisjan",
+                "bio": {
+                    "html": "Hoi ik ben Trisjan en 21 jaar oud. Mijn besties zijn Marco, Eliza, Anouk, Danique en Tolga! ( ͡❛ ₃ ͡❛)"
+                },
+                "website": "http://trisjan.mustamu.student.fdnd.nl/",
+                "ervaring": "3 jaar",
+                "colour": null
+            },
+            {
+                "id": "clden5sps3ohs0bw5r6akkji8",
+                "slug": "dikketimo",
+                "name": "Tim",
+                "prefix": "Mr",
+                "surname": "Oosterveer",
+                "role": [
+                    "student"
+                ],
+                "nickname": "goofyguy",
+                "avatar": "https://avatars.githubusercontent.com/u/62908209?s=400&u=abaf84c477eb8162e6947697a67bab6650b7d6ee&v=4",
+                "gitHubHandle": "DikkeTimo",
+                "bio": {
+                    "html": "Hi! Leuk dat je hier kijkt Ik ben Tim, 22 jaar oud en kom uit Lisserbroek <p></p><p></p>Mijn vooropleiding was in de autotechniek, dus dit is een totaal nieuwe uitdaging.<p></p><p></p>Ambitie is om een goede frontender te worden en misschien later een combi met autotechniek. In het weekend ben ik vaak aan het zweefvliegen of kitesurfen."
+                },
+                "website": "https://grumpy-overshirt-crow.cyclic.app/",
+                "ervaring": "0 jaar",
+                "colour": null
+            },
+            {
+                "id": "cldemzkbv3of50auo4o3lmxeu",
+                "slug": "eliza-lacroes",
+                "name": "Eliza",
+                "prefix": "",
+                "surname": "Lacroes",
+                "role": [
+                    "student"
+                ],
+                "nickname": "liza",
+                "avatar": "https://i.pinimg.com/564x/e4/18/e2/e418e22729bd7a202c563e08463b6ad9.jpg",
+                "gitHubHandle": "moonlightlizaa",
+                "bio": {
+                    "html": "Hoi! Mijn naam is Eliza. Ik ben 20 jaar oud en ik woon in Amsterdam."
+                },
+                "website": "https://eliza.student.fdnd.nl/",
+                "colour": null
+            },
+            {
+                "id": "cldemy1dv3op70avwfy2xgduh",
+                "slug": "celine-van-der-putte",
+                "name": "Celine",
+                "prefix": "van der",
+                "surname": "Putte",
+                "role": [
+                    "student"
+                ],
+                "nickname": "CelinexPutte",
+                "avatar": "https://celinevanderputte.student.fdnd.nl/assets/Celine.jpg",
+                "gitHubHandle": "CelinexPutte",
+                "bio": {
+                    "html": "Ik ben 22 jaar en ik woon samen met mijn ouders in Hoofddorp. Momenteel volg ik de studie Frontend Design &amp; Development in Amsterdam. Verder hou ik heel erg van rode panda&#39;s."
+                },
+                "website": "celinevanderputte.student.fdnd.nl",
+                "colour": null
+            },
+            {
+                "id": "cldemsxee3oeg0avw60bcsibn",
+                "slug": "arexan-kheyrdoon",
+                "name": "Arexan",
+                "prefix": "",
+                "surname": "Kheyrdoon",
+                "role": [
+                    "student"
+                ],
+                "nickname": "Arex",
+                "avatar": "",
+                "gitHubHandle": "ArexanK",
+                "bio": {
+                    "html": "Im a student at the Hogeschool van Amsterdam studying Frontend development and design. "
+                },
+                "website": "",
+                "ervaring": "0 jaar",
+                "colour": null
+            },
+            {
+                "id": "cldemtfb73ntg0av0xt814fys",
+                "slug": "badr-amara",
+                "name": "Badr",
+                "prefix": "Mr",
+                "surname": "Amara",
+                "role": [
+                    "student"
+                ],
+                "nickname": "iBadr49",
+                "avatar": "https://avatars.githubusercontent.com/u/112857932?v=4",
+                "gitHubHandle": "iBadr49",
+                "bio": {
+                    "html": "20YO - Een Frontend Desinger Student."
+                },
+                "website": "",
+                "ervaring": "0 jaar",
+                "colour": null
+            },
+            {
+                "id": "cldczi8mf17j80avwwpzsbhln",
+                "slug": "cyd-stumpel",
+                "name": "Cyd",
+                "prefix": "",
+                "surname": "Stumpel",
+                "role": [
+                    "co_teacher"
+                ],
+                "nickname": "",
+                "avatar": "https://avatars.githubusercontent.com/u/14167636?v=4",
+                "gitHubHandle": "sidstumple",
+                "bio": {
+                    "html": "Freelance Creative Developer | @Awwwards Jury | Parttime Lecturer at Frontend Design &amp; Development - University of Applied sciences @hva | I’m an @okaydevs 💃🏽"
+                },
+                "website": "https://cydstumpel.nl",
+                "colour": null
+            },
+            {
+                "id": "clden40hw3orh0auof5f8gred",
+                "slug": "sanne-van-seeventer",
+                "name": "Sanne",
+                "prefix": "van",
+                "surname": "Seeventer",
+                "role": [
+                    "student"
+                ],
+                "nickname": "sannevanseeventer",
+                "avatar": "https://avatars.githubusercontent.com/u/112857444?v=4",
+                "gitHubHandle": "sannevanseeventer",
+                "bio": {
+                    "html": "In mijn vrije tijd hang ik het liefst ondersteboven in een paal en bak ik de lekkerste taartjes."
+                },
+                "website": "https://github.com/sannevanseeventer",
+                "ervaring": "0 jaar",
+                "colour": null
+            },
+            {
+                "id": "cldemttt23o5b0auoufs4ls4e",
+                "slug": "cathelijne-visser",
+                "name": "Cathelijne",
+                "prefix": "",
+                "surname": "Visser",
+                "role": [
+                    "student"
+                ],
+                "nickname": "Cathelijne",
+                "avatar": "https://avatars.githubusercontent.com/u/112855711?v=4",
+                "gitHubHandle": "CathelijneVisser",
+                "bio": {
+                    "html": "Ik ben Cathelijne Visser. Ik ben 18 jaar, en ik kom uit Nieuw-Vennep. Ik heb al een beetje ervaring met coderen.  "
+                },
+                "website": "cathelijnevisser.student.fdnd.nl",
+                "ervaring": "2 jaar",
+                "colour": null
+            },
+            {
+                "id": "cldena5zx3p1i0bw5x11tgzjt",
+                "slug": "tolga-doganer",
+                "name": "TOLGA",
+                "prefix": "Mister",
+                "surname": "DOGANER",
+                "role": [
+                    "student"
+                ],
+                "nickname": "TD",
+                "avatar": "https://avatars.githubusercontent.com/u/112855878?s=400&u=8ca587fdd4abb296b053220bae9b6585a9cb6d57&v=4",
+                "gitHubHandle": "Tolga1999",
+                "bio": {
+                    "html": "Frontend developer - Year 1"
+                },
+                "website": "https://github.com/Tolga1999",
+                "ervaring": "4 jaar",
+                "colour": null
+            },
+            {
+                "id": "cldemsi0v3o2l0auod68wk9pf",
+                "slug": "anouk",
+                "name": "Anouk",
+                "prefix": "",
+                "surname": "Bruin",
+                "role": [
+                    "student"
+                ],
+                "nickname": "Anouk",
+                "avatar": "https://i.etsystatic.com/21131517/r/il/014f33/2998407599/il_570xN.2998407599_h2n7.jpg",
+                "gitHubHandle": "anouk-bruin",
+                "bio": {
+                    "html": "Hallo ik ben Anouk!🦋"
+                },
+                "website": "",
+                "ervaring": "3 jaar",
+                "colour": null
+            },
+            {
+                "id": "clden38jn3odp0av0ve8j1oy8",
+                "slug": "robin-heijden",
+                "name": "Robin",
+                "prefix": "van der",
+                "surname": "Heijden",
+                "role": [
+                    "student"
+                ],
+                "nickname": "Robin",
+                "avatar": "https://media.discordapp.net/attachments/798575793617502239/1067033384611741777/IMG_3060.png",
+                "gitHubHandle": "Robin1224",
+                "bio": {
+                    "html": "mijn naam is robin (hij/hem) ik ben 21 jaar oud en woon sinds kort in Amsterdam. heb veel passie voor design en creativiteit in t algemeen. in mn vrije tijd game ik ook wel eens, en probeer ik zo veel mogelijk mijn vrienden te zien. ik heb al enigszins ervaring met html, css en javascript omdat ik wel eens een cursus React heb gevolgd, maar ik zou mezelf zeker geen expert noemen. daarnaast vind ik t ook leuk om gewoon fashionable te kleden, en ben ik ook erg voor het tegengaan van gendernormen, onder andere wat kleding betreft. ook vind ik alles wat retro is interessant, en heb ik zelf onder anderen ook een platenspeler/collectie, polaroid camera en een oude film camera die ik veel gebruik"
+                },
+                "website": "robinvanderheijden.student.fdnd.nl",
+                "ervaring": "3 jaar",
+                "colour": null
+            },
+            {
+                "id": "clden4f9j3pd30avw1wpxlkg5",
+                "slug": "mals",
+                "name": "Thomas",
+                "prefix": "",
+                "surname": "Scheepers",
+                "role": [
+                    "student"
+                ],
+                "nickname": "thomas@scheepers.com",
+                "avatar": "https://avatars.githubusercontent.com/u/60781257?s=96&v=4",
+                "gitHubHandle": "Knetters",
+                "bio": {
+                    "html": "FDND student at the HvA, Mediamarkt Nerd."
+                },
+                "website": "https://knetters.github.io/Aquaduct/",
+                "ervaring": "4 jaar",
+                "colour": null
+            },
+            {
+                "id": "clden3lrj3o3x0bw58e7ve3m2",
+                "slug": "sanhont",
+                "name": "Sander",
+                "prefix": "de",
+                "surname": "Hont",
+                "role": [
+                    "student"
+                ],
+                "nickname": "GoofyGuy",
+                "avatar": "https://avatars.githubusercontent.com/u/112860052?s=400&u=f942aa091449ab3e79a2d0283002735d0f23affe&v=4",
+                "gitHubHandle": "SanHont",
+                "bio": {
+                    "html": "Creative Frontend Developer in spé"
+                },
+                "website": "",
+                "colour": null
+            },
+            {
+                "id": "clden06gv3ove0avwyfwsh5p5",
+                "slug": null,
+                "name": "Isandro",
+                "prefix": null,
+                "surname": "Castillo",
+                "role": [
+                    "student"
+                ],
+                "nickname": null,
+                "avatar": null,
+                "gitHubHandle": null,
+                "bio": null,
+                "website": null,
+                "colour": null
+            }
+        ]
+    }
+}

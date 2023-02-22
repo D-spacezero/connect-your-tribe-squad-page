@@ -1,31 +1,46 @@
-// Importeer express uit de node_modules map
 import express from 'express'
 
-const url= 'https://whois.fdnd.nl/api/v1/member/diego-dekker'
-const data = await fetch(url).then ((response) => response.json())
+// const url = 'https://whois.fdnd.nl/api/v1/squad/squad-b-2022'
+const url2 = 'https://raw.githubusercontent.com/Daniquedejong/connect-your-tribe-squad-page/main/squad-a-2022.json'
+// const data = await fetch(url)
 
-// Maak een nieuwe express app aan
+  // .then((response) => response.json())
+  // .catch((error) => error)
+  
+const data2 = await fetch(url2)
+  .then((response) => response.json())
+  .catch((error) => error)
+
+console.log(data2)
+
+// Maak een nieuwe express app
 const app = express()
 
-// Stel ejs in als template engine en geef de 'views' map door
+// Stel in hoe we express gebruiken
 app.set('view engine', 'ejs')
 app.set('views', './views')
-
-// Gebruik de map 'public' voor statische resources
 app.use(express.static('public'))
 
 // Maak een route voor de index
-app.get('/', function (req, res) {
-  // res.send('Hello World!')
-  res.render('index', data)
+app.get('/', (request, response) => {
+  console.log(request.query.squad)
+
+  response.render('index', data2)
 })
 
-// Stel het poortnummer in waar express op gaat luisteren
-app.set('port', process.env.PORT || 1234)
 
-// Start express op, haal het ingestelde poortnummer op
+app.get('/test', (request, response) => {
+    console.log(request.query.squad)
+  
+    response.render('test')
+  })
+
+// app.get('/members', (request, response) => {
+//   response.send('Joepie!!')
+// })
+
+// Stel het poortnummer in en start express
+app.set('port', process.env.PORT || 8000)
 app.listen(app.get('port'), function () {
-  // Toon een bericht in de console en geef het poortnummer door
   console.log(`Application started on http://localhost:${app.get('port')}`)
 })
-
