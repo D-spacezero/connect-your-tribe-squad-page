@@ -1,7 +1,7 @@
 import express from 'express'
 
 // const url = 'https://whois.fdnd.nl/api/v1/squad/squad-b-2022'
-const url2 = 'https://raw.githubusercontent.com/Daniquedejong/connect-your-tribe-squad-page/main/squad-a-2022.json'
+const url2 = 'https://raw.githubusercontent.com/D-spacezero/connect-your-tribe-squad-page/main/squad-a-2022.json'
 // const data = await fetch(url)
 
   // .then((response) => response.json())
