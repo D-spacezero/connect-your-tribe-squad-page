@@ -1,4 +1,4 @@
-
+/*
 // Remove transition class
 const square = document.querySelector('.fade');
 square.classList.remove('fade-transition');
@@ -17,7 +17,7 @@ const observer = new IntersectionObserver(entries => {
 
 observer.observe(document.querySelector('.fade'));
 
-
+*/
 
 
 
